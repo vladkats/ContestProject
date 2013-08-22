@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fadingEdge="none"
+    android:background="@drawable/bg"
+    android:fitsSystemWindows="false"
+    android:drawingCacheQuality="high">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/bg"
+        android:layout_marginTop="6dip"
+        android:layout_marginRight="6dip"
+        android:layout_marginLeft="6dip"
+        android:layout_marginBottom="6dip">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Введите ваше ФИО"
+            android:textSize="18dip"
+            android:textStyle="normal"
+            android:textColor="#ff111916"
+            android:typeface="normal" />
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:inputType="textCapWords"
+            android:drawableBottom="#ffb93939"
+            android:drawableTop="#ffb93939"
+            android:divider="#ffb93939"
+            android:dividerHeight="4dip"
+            android:background="@drawable/border"
+            android:layout_margin="1dip"
+            android:layout_height="40dip"
+            android:minLines="3"
+            android:padding="5dip"
+            android:textColor="#615e5e" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Выберите дату рождения"
+            android:textColor="#ff111916"
+            android:textStyle="normal"
+            android:textSize="18dip"
+            android:layout_marginTop="10dip" />
+        <DatePicker
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:startYear="1930"
+            android:endYear="2013"
+            android:padding="5dp"
+            android:layout_margin="10dip"
+            android:background="@drawable/DateBorder"
+            android:calendarViewShown="false"
+            android:layout_gravity="center"
+            android:divider="#6f6c6c" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ваш пол"
+            android:textColor="#ff111916"
+            android:textSize="18dip" />
+        <Spinner
+            android:id="@+id/gender"
+            android:background="@drawable/DateBorder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:popupBackground="@drawable/actBar"
+            android:drawSelectorOnTop="true"
+            android:textColor="#615e5e"
+            style="@android:style/TextAppearance.Widget.TextView.SpinnerItem" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Введите свою должность"
+            android:id="@+id/textView2"
+            android:textColor="#ff111916"
+            android:textSize="18dip"
+            android:layout_marginTop="10dip" />
+        <EditText
+            android:id="@+id/jobPosition"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:inputType="textCapSentences"
+            android:background="@drawable/border"
+            android:padding="5dip"
+            android:textColor="#615e5e" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Введите зарплату"
+            android:textColor="#ff111916"
+            android:textSize="18dip"
+            android:layout_marginTop="10dip" />
+        <EditText
+            android:id="@+id/salary"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:inputType="number"
+            android:background="@drawable/border"
+            android:padding="5dip"
+            android:textColor="#615e5e" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Введите ваш номер телефона"
+            android:textColor="#ff111916"
+            android:textSize="18dip"
+            android:layout_marginTop="10dip" />
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:inputType="phone"
+            android:background="@drawable/border"
+            android:padding="5dip"
+            android:textColor="#615e5e" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Введите ваш email"
+            android:textColor="#ff111916"
+            android:textSize="18dip"
+            android:layout_marginTop="10dip" />
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:inputType="text|textEmailAddress"
+            android:background="@drawable/border"
+            android:padding="5dip"
+            android:textColor="#615e5e" />
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Отправить Резюме"
+            android:background="@drawable/actBar"
+            android:layout_marginTop="25dip" />
+    </LinearLayout>
+</ScrollView>
