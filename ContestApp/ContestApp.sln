@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContestApp", "ContestApp\ContestApp.csproj", "{289714AF-71DC-4826-8AF9-FDED59395FDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{289714AF-71DC-4826-8AF9-FDED59395FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{289714AF-71DC-4826-8AF9-FDED59395FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{289714AF-71DC-4826-8AF9-FDED59395FDA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{289714AF-71DC-4826-8AF9-FDED59395FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{289714AF-71DC-4826-8AF9-FDED59395FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = ContestApp\ContestApp.csproj
+	EndGlobalSection
+EndGlobal

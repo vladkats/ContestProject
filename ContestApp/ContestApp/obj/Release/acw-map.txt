@@ -1,0 +1,3 @@
+ContestApp.Activity1;contestapp.Activity1
+ContestApp.Activity2;contestapp.Activity2
+ContestApp.answerListAdapter;contestapp.answerListAdapter

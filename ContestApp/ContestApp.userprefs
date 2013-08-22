@@ -1,0 +1,38 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ContestApp\Resources\Resource.designer.cs">
+    <Files>
+      <File FileName="ContestApp\Properties\AndroidManifest.xml" Line="1" Column="1" />
+      <File FileName="ContestApp\Activity1.cs" Line="27" Column="14" />
+      <File FileName="ContestApp\Activity2.cs" Line="14" Column="63" />
+      <File FileName="ContestApp\Resources\drawable\border.xml" Line="1" Column="1" />
+      <File FileName="ContestApp\Resources\drawable\scroll_bg.xml" Line="1" Column="1" />
+      <File FileName="ContestApp\Resources\drawable\DateBorder.xml" Line="1" Column="1" />
+      <File FileName="ContestApp\Answer.cs" Line="21" Column="1" />
+      <File FileName="ContestApp\answerListAdapter.cs" Line="25" Column="3" />
+      <File FileName="ContestApp\Resources\drawable\divider.xml" Line="5" Column="23" />
+      <File FileName="ContestApp\Resources\Resource.designer.cs" Line="9" Column="21" />
+      <File FileName="ContestApp\Properties\AssemblyInfo.cs" Line="17" Column="40" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="ContestApp" expanded="True" selected="True">
+            <Node name="Properties" expanded="True" />
+            <Node name="Resources" expanded="True">
+              <Node name="drawable" expanded="True" />
+              <Node name="layout" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Влад\Documents\Projects\ContestApp\ContestApp\Activity1.cs" line="57" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ContestApp AndroidDeviceId-Debug="emulator-5554" MonoForAntroid.PreferredDevice="5.1in WVGA" />
+</Properties>
